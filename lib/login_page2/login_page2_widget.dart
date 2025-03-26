@@ -56,7 +56,7 @@ class _LoginPage2WidgetState extends State<LoginPage2Widget> {
           height: double.infinity,
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xFFF83B46), Color(0xFF39D2C0)],
+              colors: [Color(0xFFC53BF8), Color(0xFF39D2C0)],
               stops: [0.0, 1.0],
               begin: AlignmentDirectional(1.0, 1.0),
               end: AlignmentDirectional(-1.0, -1.0),
@@ -85,7 +85,7 @@ class _LoginPage2WidgetState extends State<LoginPage2Widget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 48.0),
                   child: Text(
-                    'Your Gateway to Web3 Investments',
+                    'Virtual Trading for Teens',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).titleMedium.override(
                           fontFamily: 'Inter',
