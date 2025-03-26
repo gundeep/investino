@@ -421,6 +421,54 @@ class _LoginPage2WidgetState extends State<LoginPage2Widget> {
                           size: 24.0,
                         ),
                       ),
+                      Container(
+                        width: 50.0,
+                        height: 50.0,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          boxShadow: [
+                            BoxShadow(
+                              blurRadius: 8.0,
+                              color: Color(0x1A000000),
+                              offset: Offset(
+                                0.0,
+                                4.0,
+                              ),
+                              spreadRadius: 0.0,
+                            )
+                          ],
+                          borderRadius: BorderRadius.circular(25.0),
+                        ),
+                        child: Icon(
+                          Icons.apple,
+                          color: Colors.black,
+                          size: 24.0,
+                        ),
+                      ),
+                      Container(
+                        width: 50.0,
+                        height: 50.0,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          boxShadow: [
+                            BoxShadow(
+                              blurRadius: 8.0,
+                              color: Color(0x1A000000),
+                              offset: Offset(
+                                0.0,
+                                4.0,
+                              ),
+                              spreadRadius: 0.0,
+                            )
+                          ],
+                          borderRadius: BorderRadius.circular(25.0),
+                        ),
+                        child: Icon(
+                          Icons.g_translate,
+                          color: Color(0xFF0299FF),
+                          size: 24.0,
+                        ),
+                      ),
                     ].divide(SizedBox(width: 16.0)),
                   ),
                 ),

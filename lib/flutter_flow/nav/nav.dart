@@ -59,6 +59,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: InvestmentOptionsWidget.routeName,
           path: InvestmentOptionsWidget.routePath,
           builder: (context, params) => InvestmentOptionsWidget(),
+        ),
+        FFRoute(
+          name: StocksPageWidget.routeName,
+          path: StocksPageWidget.routePath,
+          builder: (context, params) => StocksPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
