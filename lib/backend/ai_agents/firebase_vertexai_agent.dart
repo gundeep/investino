@@ -24,6 +24,7 @@ class ChatManager {
     Map<String, dynamic> agentJson,
   ) async {
     if (!_chats.containsKey(threadId)) {
+      // Create Vertex AI instance
       final vertexAI = FirebaseVertexAI.instanceFor(
         auth: FirebaseAuth.instance,
       );

@@ -5,3 +5,4 @@ export '/login_page2/login_page2_widget.dart' show LoginPage2Widget;
 export '/investment_options/investment_options_widget.dart'
     show InvestmentOptionsWidget;
 export '/stocks_page/stocks_page_widget.dart' show StocksPageWidget;
+export '/login3/login3_widget.dart' show Login3Widget;
