@@ -8,7 +8,7 @@ export 'login3_model.dart';
 /// Create a simple Login Page which has two buttons.
 ///
 /// Create a Wallet and Add an exixting wallet. I would like a yellowish
-/// background and teal Buttons. Very minimalistic.
+/// background and teal Buttons. Very minimalistic. Add a logo on the top
 class Login3Widget extends StatefulWidget {
   const Login3Widget({super.key});
 

@@ -6,3 +6,4 @@ export '/investment_options/investment_options_widget.dart'
     show InvestmentOptionsWidget;
 export '/stocks_page/stocks_page_widget.dart' show StocksPageWidget;
 export '/login3/login3_widget.dart' show Login3Widget;
+export '/assesment/assesment_widget.dart' show AssesmentWidget;
